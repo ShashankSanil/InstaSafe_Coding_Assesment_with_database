@@ -1,0 +1,184 @@
+[
+    {
+        "functionname": "chassisHandler.payloadValidator",
+        "errorcode": "100",
+        "en": "Validation Error..",
+        "status": "400",
+        "errordescription": "Error while validating Payload,Invalid json"
+    },
+    {
+        "functionname": "chassisHandler.payloadValidator",
+        "errorcode": "101",
+        "en": "Error 101:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "Error while validating Payload"
+    },
+    {
+        "functionname": "repository.CreateTransaction",
+        "errorcode": "102",
+        "en": "Error 102:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "MongoDb error while inserting document"
+    },
+    {
+        "functionname": "repository.CreateTransaction",
+        "errorcode": "103",
+        "en": "Transaction recorded Successfully",
+        "status": "201",
+        "errordescription": "Transaction added Successfully"
+    },
+    {
+        "functionname": "service.GetStatistics",
+        "errorcode": "104",
+        "en": "Error 104:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "Error while parsing time"
+    },
+    {
+        "functionname": "middlewares.PayloadValidator",
+        "errorcode": "105",
+        "en": "Error 105:  Please Contact Help Desk",
+        "status": "400",
+        "errordescription": "Error while validating payload"
+    },
+    {
+        "functionname": "repository.FindUserByEmail",
+        "errorcode": "106",
+        "en": "Error 106:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "MongoDb error while finding document"
+    },
+    {
+        "functionname": "service.CreateEndUser",
+        "errorcode": "107",
+        "en": "Email already exists !!!",
+        "status": "400",
+        "errordescription": "Email already exists !!!"
+    },
+    {
+        "functionname": "repository.CreateEndUser",
+        "errorcode": "108",
+        "en": "Error 108:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "MongoDb error while inserting document"
+    },
+    {
+        "functionname": "repository.CreateEndUser",
+        "errorcode": "109",
+        "en": "User Created Successfully",
+        "status": "200",
+        "errordescription": "Transaction added Successfully"
+    },
+    {
+        "functionname": "service.CreateTransaction",
+        "errorcode": "110",
+        "en": "Transaction is older than 60 seconds",
+        "status": "204",
+        "errordescription": "Transaction is older than 60 seconds"
+    },
+    {
+        "functionname": "service.CreateTransaction",
+        "errorcode": "111",
+        "en": "Transaction date is in the future",
+        "status": "422",
+        "errordescription": "Transaction date is in the future"
+    },
+    {
+        "functionname": "service.CreateTransaction",
+        "errorcode": "112",
+        "en": "Error 112:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "Error while parsing time"
+    },
+    {
+        "functionname": "repository.DeleteAllTransactions",
+        "errorcode": "113",
+        "en": "Error 113:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "MongoDb error while deleting document"
+    },
+    {
+        "functionname": "repository.DeleteAllTransactions",
+        "errorcode": "114",
+        "en": "All Transactions are Deleted Successfully",
+        "status": "204",
+        "errordescription": "All Transactions are Deleted Successfully"
+    },
+    {
+        "functionname": "repository.AddLoaction",
+        "errorcode": "115",
+        "en": "Error 115:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "MongoDb error while deleting document"
+    },
+    {
+        "functionname": "repository.AddLoaction",
+        "errorcode": "116",
+        "en": "Loaction Added Successfully",
+        "status": "200",
+        "errordescription": "Loaction Added Successfully"
+    },
+    {
+        "functionname": "resetLocation.ResetLoaction",
+        "errorcode": "117",
+        "en": "Loaction updated Successfully",
+        "status": "200",
+        "errordescription": "Loaction updated Successfully"
+    },
+    {
+        "functionname": "resource.GetStatistics",
+        "errorcode": "118",
+        "en": "Invalid city on search filter!",
+        "status": "404",
+        "errordescription": "Invalid city on search filter!"
+    },
+    {
+        "functionname": "repository.GetUserByID",
+        "errorcode": "119",
+        "en": "Error 119:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "MongoDb error while finding document"
+    },
+    {
+        "functionname": "repository.GetUserByID",
+        "errorcode": "120",
+        "en": "Error 120:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "Error while convertiong string to ObjectId"
+    },
+    {
+        "functionname": "repository.GetAllTransactions",
+        "errorcode": "121",
+        "en": "Error 121:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "MongoDb error while finding document"
+    },
+    {
+        "functionname": "service.GetStatistics",
+        "errorcode": "122",
+        "en": "Error 122:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "Error while convertiong string to Int"
+    },
+    {
+        "functionname": "service.GetStatistics",
+        "errorcode": "123",
+        "en": "Unauthorized..!!!",
+        "status": "401",
+        "errordescription": "User location and filter not matched"
+    },
+    {
+        "functionname": "service.GetStatistics",
+        "errorcode": "124",
+        "en": "Statistics",
+        "status": "200",
+        "errordescription": "Statistics"
+    },
+    {
+        "functionname": "repository.UpdateLocation",
+        "errorcode": "125",
+        "en": "Error 125:  Please Contact Help Desk",
+        "status": "500",
+        "errordescription": "Error while convertiong string to ObjectId"
+    }
+]

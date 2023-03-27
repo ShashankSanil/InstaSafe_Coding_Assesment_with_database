@@ -1,0 +1,26 @@
+{
+    "title": "Create Transaction",
+    "type": "object",
+    "properties": {
+        "end_user_name": {
+            "type": "string",
+            "minLength": 4
+        },
+        "amount": {
+            "type": "string",
+            "minLength": 1
+        },
+        "timestamp": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "end_user_name",
+        "amount",
+        "timestamp",
+        "location"
+    ]
+}

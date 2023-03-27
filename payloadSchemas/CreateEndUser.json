@@ -1,0 +1,19 @@
+{
+    "title": "Create User",
+    "type": "object",
+    "properties": {
+        "Username": {
+            "type": "string",
+            "minLength": 1
+        },
+        "Email": {
+            "type": "string",
+            "pattern": "^\\S+@\\S+\\.\\S+$",
+            "minLength": 6
+        }
+    },
+    "required": [
+        "Username",
+        "Email"
+    ]
+}

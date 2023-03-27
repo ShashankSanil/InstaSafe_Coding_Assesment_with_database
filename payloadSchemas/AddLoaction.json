@@ -1,0 +1,13 @@
+{
+    "title": "Add Loaction",
+    "type": "object",
+    "properties": {
+        "city": {
+            "type": "string",
+            "minLength": 2
+        }
+    },
+    "required": [
+        "city"
+    ]
+}
