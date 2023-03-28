@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "74b5f8cf-4fcc-4fff-8678-867be13e8e86",
+		"name": "InstaSafe_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20603569"
+	},
+	"item": [
+		{
+			"name": "Add_Transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"amount\":\"10.23\",\n    \"end_user_name\":\"Shashank\",\n    \"end_user_email\":\"Shashank@gmail.com\",\n    \"timestamp\":\"2023-03-27T11:01:38.944525Z\",\n    \"location\":\"Mangalore\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5055/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5055",
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_All_Transactions",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5055/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5055",
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add_Loaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"city\":\"Mangalore\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5055/addLoaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5055",
+					"path": [
+						"addLoaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create_End_User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Username\":\"Shashank\",\n    \"Email\":\"Shashank@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5055/user/signUp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5055",
+					"path": [
+						"user",
+						"signUp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reset_Loaction",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"city\":\"Bangalore\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5055/user/642130d3de733e94659c263d/resetLoaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5055",
+					"path": [
+						"user",
+						"642130d3de733e94659c263d",
+						"resetLoaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_Statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5055/user/642130d3de733e94659c263d/statistics?city=Bangalore",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5055",
+					"path": [
+						"user",
+						"642130d3de733e94659c263d",
+						"statistics"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Bangalore"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
